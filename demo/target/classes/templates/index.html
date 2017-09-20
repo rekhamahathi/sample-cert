@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="utf-8" />
+    <title>QBE Certificates</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.12/css/jquery.dataTables.min.css">
+    <script src="https://cdn.datatables.net/1.10.12/js/jquery.dataTables.min.js"></script>
+    <script src="/js/datatable.js"></script>
+</head>
+
+<body>
+<h1 style="color:red;">Certificates Expires in < 7 Days</h1>
+<table id="certificatesTableFor7" class="display">
+
+    <!-- Header Table -->
+    <thead>
+    <tr>
+        <th>Certificate Name</th>
+        <th>Certificate Provider</th>
+        <th>Expiry Date</th>
+    </tr>
+    </thead>
+</table>
+
+<h1 style="color:orange;">Certificates Expires in < 14 Days</h1>
+<table id="certificatesTableFor14" class="display">
+
+    <!-- Header Table -->
+    <thead>
+    <tr>
+        <th>Certificate Name</th>
+        <th>Certificate Provider</th>
+        <th>Expiry Date</th>
+    </tr>
+    </thead>
+</table>
+
+<h1 style="color:green;">Certificates Expires in < 30 Days</h1>
+<table id="certificatesTableFor30" class="display">
+
+    <!-- Header Table -->
+    <thead>
+    <tr>
+        <th>Certificate Name</th>
+        <th>Certificate Provider</th>
+        <th>Expiry Date</th>
+    </tr>
+    </thead>
+</table>
+</body>
+</html>
